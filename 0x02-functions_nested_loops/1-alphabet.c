@@ -1,6 +1,6 @@
 #include "main.h"
-/**
-* - print all alphabet in loprint_alphabetwercase
+/*
+* print_alphabet - Prints all lowercase letters of the English alphabet
 */
 void print_alphabet(void)
 {
