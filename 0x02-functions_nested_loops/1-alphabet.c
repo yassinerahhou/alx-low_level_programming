@@ -1,8 +1,6 @@
 #include "main.h"
 /**
 * - print all alphabet in loprint_alphabetwercase
-* Yassin
-* Return: 0
 */
 void print_alphabet(void)
 {
