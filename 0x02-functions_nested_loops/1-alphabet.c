@@ -1,16 +1,16 @@
 #include "main.h"
 /**
-*   - print all alphabet in loprint_alphabetwercase
+* - print all alphabet in loprint_alphabetwercase
 * Yassin
 * Return: 0
 */
 void print_alphabet(void)
 {
-char A;
+char letter;
 
 
-for (A = 'a'; A <= 'z'; letter++)
-_putchar(A);
+for (letter = 'a'; letter <= 'z'; letter++)
+_putchar(letter);
 
 
 _putchar('\n');
