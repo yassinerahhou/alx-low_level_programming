@@ -38,4 +38,4 @@ bef2 = aft2 - bef2;
 }
 printf("\n");
 return (0);
-}```
+}
