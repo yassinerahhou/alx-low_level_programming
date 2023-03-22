@@ -1,23 +1,16 @@
-#include <stdio.h>                                                                                 
+#include "main.h"
 
-/**                                                                                                
- * main - debugging example                                                                        
- * Return: 0                                                                                       
- */                                                                                                
-int main(void)                                                                                     
-{                                                                                                  
-        int i;                                                                                     
-        int j;                                                                                     
+/**
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
+ */
 
-        for (i = 0; i < 10; i++)                                                                   
-        {                                                                                          
-                j = 0;                                                                             
-                while (j < 10)                                                                     
-                {                                                                                  
-                        printf("%d", j);                                                           
-                }                                                                                  
-                printf("\n");                                                                      
-        }                                                                                          
+int main(void)
+{
+int i;
 
-        return (0);                                                                                
+i = 0;
+positive_or_negative(i);
+
+return (0);
 }
