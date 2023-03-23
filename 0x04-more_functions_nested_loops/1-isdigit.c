@@ -1,23 +1,16 @@
 #include "main.h"
 /**
- * _isdigit - checks if a digit or otherwise in ASCII
+ * _isupper - hecks for uppercase character
  * @c: the character to check
  *
- * Return: 1 if c is a digit, 0 otherwise
- *
+ * Return: 1 if c is a lowercase letter, 0 otherwise
  */
-
-int _isdigit(int c)
+int _isupper(int c)
 {
-if (c >= 0 && c <= 9)
-
-{
+if (c >= 65  && c <= 90)
 return (1);
-}
-
 else
-
 {
 return (0);
 }
-}
+}}
