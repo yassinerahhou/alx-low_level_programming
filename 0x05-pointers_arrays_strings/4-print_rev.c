@@ -10,11 +10,19 @@
  * @s: string
  * Return: void
  */
-void print_rev(char *s)
+void    print_rev(char *s)
 {
-for (int i = _strlen(s) - 1; i >= 0 ; i--)
+int    i;
+int    n;
+
+n = 0;
+while (s[n] != '\0')
+n++;
+i = n - 1;
+while (i >= 0)
 {
 _putchar(s[i]);
+i--;
 }
 _putchar('\n');
 }
