@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* _memset - memset function
+* _memset - function that fills the first n
 * @s :point of string to changee
 * @b : value that we will put
 * @n : number of bits
-* Return : change  pointer to @s
+* Return: Pointer to the memory area s.
 */
 char *_memset(char *s, char b, unsigned int n)
 {
