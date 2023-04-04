@@ -12,9 +12,15 @@ int i, y;
 for (i = 0 ; haystack[i] != '\0' ; i++)
 {
 for (y = 0 ; needle[y] != '\0' ; y++)
-if (haystack[i] == needle[y])
 {
-return (needle);
+if (haystack[i + y] != needle[y])
+{
+break;
+}
+}
+if (needle[y] == '\0')
+{
+return (haystack + i);
 }
 }
 return (0);
