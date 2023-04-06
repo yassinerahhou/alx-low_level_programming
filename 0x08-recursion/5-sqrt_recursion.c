@@ -2,7 +2,7 @@
 int _sqrt(int n, int i);
 
 /**
- * _sqrt_recursion - Entry Function
+ * power_operation - returns the natural square root of a number.
  * @n: input number.
  * @c: iterator.
  * Return: square root or -1.
