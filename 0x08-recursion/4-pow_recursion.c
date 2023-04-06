@@ -4,7 +4,7 @@
 * _pow_recursion - Entry Function
  * @x: integer
  * @y: integer
-*the return value of x
+*Return :the return value of x
 */
 int _pow_recursion(int x, int y)
 {
