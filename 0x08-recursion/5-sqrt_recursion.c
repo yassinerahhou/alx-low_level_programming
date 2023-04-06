@@ -1,5 +1,5 @@
 #include "main.h"
-int _sqrt(int n, int i);
+
 /**
  * _sqrt_value - search for the square value of n beginning
  * @n: number
@@ -17,18 +17,17 @@ return (value);
 
 return (_sqrt_value(n, value + 1));
 }
+
 /**
- * _sqrt - Entry Function
- * @n: integer
- * @i: integer
- * Return: the square root
+ * _sqrt_recursion -  returns the natural square root of a number.
+ * @n: n
+ * Return: natural square value
  */
-int _sqrt(int n, int i)
+
+int _sqrt_recursion(int n)
 {
-if (i * i == n)
-return (i);
-else if (i * i < n)
-return (_sqrt(n, i + 1));
-else
+if (n < 0)
 return (-1);
+
+return (_sqrt_value(n, 0));
 }
