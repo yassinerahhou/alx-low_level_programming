@@ -22,7 +22,6 @@ return (0 + is_number(n, a + 1));
 /**
  * is_prime_number - Write a function that returns 1 if the input integer
  * @n: integer
- * @i: integer
  * Return: 1 if n is a prime number 0
  */
 
