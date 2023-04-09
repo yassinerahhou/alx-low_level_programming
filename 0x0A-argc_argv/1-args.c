@@ -1,5 +1,5 @@
-include < stdio.h >
-#include < unistd.h >
+#include <stdio.h>
+#include <unistd.h>
 
 
 /**
@@ -9,7 +9,7 @@ include < stdio.h >
  * Return: 0 - success.
  */
 
-iint main(int c, char __attribute__((unused)) **v)
+int main(int c, char __attribute__((unused)) **v)
 {
 	printf("%d\n", c - 1);
 	return (0);
