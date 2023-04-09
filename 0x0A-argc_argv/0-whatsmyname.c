@@ -2,13 +2,13 @@
 #include <unistd.h>
 
 /**
- * main  - Prints the name of the program
+ * main - Prints the name of the program
  * @c:  The variable
- * @v: The Var
+ *  @v: The Var
  * Return: The Return value/void
- */
-int main(int argc __attribute__((unused)), char *argv[])
+  */
+int main(int c __attribute__((unused)), char *v[])
 {
-printf("%s\n", argv[0]);
+printf("%s\n", v[0]);
 return (0);
 }
