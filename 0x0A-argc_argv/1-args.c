@@ -1,13 +1,13 @@
 #include <stdio.h>
-/* By_Yacin */
+#include <unistd.h>>
 /**
- * main - prints its name, followed by a new line.
+ * main  - The Function
  * @argc: number dlcomandeline flargements .
  * @argv:larrayslik ayhsb lines .
  * Return : 0 always succses .
 */
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-printf("%s\n", argc - 1);
+printf("%d\n", argc - 1);
 return (0);
 }
