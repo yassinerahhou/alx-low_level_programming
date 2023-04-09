@@ -1,13 +1,16 @@
-#include <stdio.h>
-#include <unistd.h>>
+include < stdio.h >
+#include < unistd.h >
+
+
 /**
- * main  - The Function
- * @argc: number dlcomandeline flargements .
- * @argv:larrayslik ayhsb lines .
- * Return : 0 always succses .
-*/
-int main(int argc, char *argv[] __attribute__((unused)))
+ * main - prints the number of arguments passed into it
+ * @c: number of command line arguments.
+ * @v: array that contains the program command line arguments
+ * Return: 0 - success.
+ */
+
+iint main(int c, char __attribute__((unused)) **v)
 {
-printf("%d\n", argc - 1);
-return (0);
+	printf("%d\n", c - 1);
+	return (0);
 }
