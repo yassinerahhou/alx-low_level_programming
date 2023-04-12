@@ -1,22 +1,44 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - check the code 
- * Return: Always zero
+ * str_concat - function that concatenates
+ * @s1: chat
+ * @s2: chart 2
+ * Return: always 0
  */
-int main(void)
+char *str_concat(char *s1, char *s2)
 {
-    char *s;
+int x, f, c, t;
+char *o;
 
-    s = str_concat("Betty ", "Holberton");
-    if (s == NULL)
-    {
-        printf("failed\n");
-        return (1);
-    }
-    printf("%s\n", s);
-    free(s);
-    return (0);
+if (s1 == NULL)
+{
+s1 = "";
+}
+for (x = 0; s1[x] != '\0'; x++)
+{
+}
+if (s2 == NULL)
+{
+s2 = "";
+}
+for (f = 0; s2[f] != '\0'; f++)
+{
+}
+o = malloc(sizeof(char) * (x + f + 1));
+if (o == NULL)
+{
+return (NULL);
+}
+for (c = 0; c < x; c++)
+{
+o[c] = s1[c];
+}
+for (t = 0; t < f; t++)
+{
+o[c] = s2[t];
+c++;
+}
+
+return (o);
 }
