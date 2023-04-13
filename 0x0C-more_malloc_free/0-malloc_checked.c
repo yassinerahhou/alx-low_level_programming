@@ -5,10 +5,11 @@
  * @b: unsignd b
  * Return: return to b
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
+{
 void *ptr;
-ptr = malloc(b);
-if (!ptr)
-exit(98);
-return (ptr);
+ptr = malloc(b * sizeof(char));
+        if (!ptr)
+                exit(98);
+        return (ptr);
 }
