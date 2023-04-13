@@ -1,8 +1,8 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid -  function that returns 
- * @width: chat 
+ * alloc_grid -  function that returns
+ * @width: chat
  * @height: chat
  * Return: always 0
  */
