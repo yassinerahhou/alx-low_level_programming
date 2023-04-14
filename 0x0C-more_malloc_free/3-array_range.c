@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * array_range - Fuction
- * @min: char 
+ * array_range - Fuction rang
+ * @min: char
  * @max: char
  * Return: the pointer to the newly created array
  */
