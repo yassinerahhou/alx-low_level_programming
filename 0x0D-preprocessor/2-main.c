@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - print the name of the file
- * __FILE__ : file which compiled from
  * return : 0
  */
 
