@@ -4,13 +4,16 @@
 /**
  * new_dog -  new dog.
  * @name: name of the dog
- * @age: age of the dogi
- * @owner: owner
+ * @age: age of the dog
+ * @owner: owner 
  * Return: always 0
+ * 
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-dog_t *d = malloc(sizeof(dog_t));
+dog_t *new_dog(char *name, float age, char *owner)
+{
+	dog_t *p_dog;
 	int i, namelen, ownerlen;
 
 	p_dog = malloc(sizeof(*p_dog));
