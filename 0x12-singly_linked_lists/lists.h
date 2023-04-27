@@ -1,6 +1,6 @@
 #ifndef LIST_H
-#define LISTS_H
-/* by Yaciin */
+#define LISTS_H
+
 /**
  * listh description
  * struct list_s - singly linked list

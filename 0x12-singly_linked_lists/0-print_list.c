@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <string.h>
 #include "lists.h"
-/* By Yacin /*
+/* By Yacin */
 /**
  * print_list - prints all the elements of list
  * @h: pointer to the head .
