@@ -9,7 +9,7 @@
 /**
  * add_node_end - adds a new node.
  * @head: pointer to the head.
- * @str: string 
+ * @str: string
  *
  * Return: not null this time
  */
