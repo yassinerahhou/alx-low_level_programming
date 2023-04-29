@@ -1,4 +1,11 @@
 #include "lists.h"
+/**
+ * print_listint - print all .
+ * @h: pointer .
+ * size_t : size of rawdaw .
+ * listint_t: 
+ * Return: back to int.
+ **/
 size_t print_listint(const listint_t *h) 
 {
 	size_t rawdaw = 0;
