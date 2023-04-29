@@ -1,6 +1,5 @@
-#include <stdlib.h>
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * add_nodeint_end - Adds a new node at the end of a listint_t.
  * @head: Pointer to a pointer .
