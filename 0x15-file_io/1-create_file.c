@@ -16,7 +16,7 @@ int _f, _write, text_len = 0;
 		return (-1);
 	}
 	_f = open(filename, O_RDWR | O_CREAT | O_TRUNC, 0600);
-	if (_f== -1)
+	if (_ f == -1)
 	{
 		return (-1);
 	}
