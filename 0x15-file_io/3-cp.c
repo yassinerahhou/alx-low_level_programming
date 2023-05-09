@@ -2,7 +2,7 @@
 /**
  * main - copies the content of a file to another file
  * @argc: argument coun argst
- * @argv: argument vectorargv 
+ * @argv: argument vectorargv
  * Return: always back to 0
  */
 
