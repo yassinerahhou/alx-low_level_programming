@@ -3,7 +3,7 @@
 /**
  * _strncat - a function that concatenates twoyjj jujy
  * @dest: an input string yjyjtg
- * @src: an input string ryhyth 
+ * @src: an input string ryhyt.
  * @n: an input integer rjrjhvd
  * Return: A pointer to the resulting string
  */

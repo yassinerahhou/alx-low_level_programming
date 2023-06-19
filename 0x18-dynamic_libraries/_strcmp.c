@@ -2,9 +2,9 @@
 
 /**
  * _strcmp - a function that comparhhh uiyiçuy
- * @s1: an input string guufyuejgfjeh 
- * @s2: an input string 
- * Return: The difference 
+ * @s1: an input string guufyuejgf
+ * @s2: an input string
+ * Return: The differenc
  */
 int _strcmp(char *s1, char *s2)
 {

@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * *_strpbrk -  function that searchfvrv 
+ * *_strpbrk -  function that searchfvrv
  * @s: This is a pointer to the string
- * @accept: This is a pointer to the string yjyjuyj 
+ * @accept: This is a pointer to the string yjyju
  * Return: NULL
  */
 

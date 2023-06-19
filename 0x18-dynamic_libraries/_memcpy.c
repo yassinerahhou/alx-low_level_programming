@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_memcpy - function 
- * @dest: This is a pointer to 
- * @src: This is a pointer 
- * @n: number of bytes to 
+ * *_memcpy - function fyhufyf
+ * @dest: This is a pointer to jdjdj
+ * @src: This is a pointer khjkhk
+ * @n: number of bytes to hughui
  * Return: dest
  */
 
