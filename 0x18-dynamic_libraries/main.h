@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _putstring(char* str);
 
 int _putchar(char c);
 int _islower(int c);
