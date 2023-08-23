@@ -1,4 +1,4 @@
 
 git add .
-git commit -m '$'
+git commit -m "C - MAKE FILE TASKs"
 git push
