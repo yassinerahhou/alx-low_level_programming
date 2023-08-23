@@ -7,10 +7,7 @@ RM = rm
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
-	$(RM) *~
-	$(RM) *.swp
-	$(RM) $(NAME)
-
+	${RM} -f *~ ${NAME}	
 oclean:
 	$(RM) $(OBJ)
 
