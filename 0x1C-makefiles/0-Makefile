@@ -1,0 +1,5 @@
+# The name of the source files
+SOURCES = school.c main.c
+all"
+# It depends on the executable program
+all: $(EXE)
