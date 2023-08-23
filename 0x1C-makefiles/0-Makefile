@@ -1,4 +1,3 @@
 # The name of the source files
-SOURCES = school.c main.c
 all:
 gcc main.c school.c -o school
