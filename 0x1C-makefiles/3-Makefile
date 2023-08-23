@@ -9,7 +9,6 @@ all: $(OBJ)
 clean:
 	$(RM) *~
 	$(RM) *.swp
-	$(RM) $(OBJ)
 	$(RM) $(NAME)
 
 oclean:
